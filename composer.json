@@ -1,0 +1,30 @@
+{
+    "name": "mohan9a/adminlte-faq",
+    "description": "A FAQ builder for laravel adminlte package.",
+    "type": "library",
+    "require": {
+      "laravel/framework": ">=6.0",
+      "php": ">=7.2.0",
+      "jeroennoten/laravel-adminlte": "^3.8",
+      "laravelcollective/html": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mohan9a\\AdminlteFaq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohan9a",
+            "email": "mohan9a@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mohan9a\\AdminlteFaq\\AdminLteFaqServiceProvider"
+            ]
+        }
+    }
+}
